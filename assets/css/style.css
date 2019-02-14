@@ -1,0 +1,51 @@
+body {
+    width: 960px;
+    margin:auto;
+}
+h1 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin: 0;
+    text-align: left;
+    margin-left:20px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    width: 25%;
+    text-align: center;
+    display: inline;
+}
+h2{
+  color: #4aaaa5;
+  margin-left: 20px;
+}
+ nav {
+   display: inline;
+   margin-top: 25px;
+ }
+.main-bio{
+    float: right;
+}
+.container{
+    width: 1024px;
+}
+.aboutme
+
+p{
+    height: 500px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img{
+    float:left;
+    width:250px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right:20px;
+
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
