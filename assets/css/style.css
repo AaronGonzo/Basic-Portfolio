@@ -1,6 +1,16 @@
+html{
+    background-color: lightgrey;
+}
+
 body {
     width: 960px;
     margin:auto;
+}
+
+.container{
+    background-color: white;
+    border-color:whitesmoke;
+    border-style: outset
 }
 h1 {
     color: #ffffff;
@@ -17,35 +27,110 @@ h1 {
 h2{
   color: #4aaaa5;
   margin-left: 20px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  padding-top: 40px;
 }
  nav {
    display: inline;
    margin-top: 25px;
+   float:right;
+   padding:40px;
  }
-.main-bio{
-    float: right;
+
+nav a{
+    margin-right: 5px;
 }
+
+
 .container{
+    margin-top: 20px;
+    padding-bottom:50px;
+    margin-bottom:50px;
+}
+
+#portfolio{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    display:inline;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+.content{
     width: 1024px;
 }
-.aboutme
 
-p{
-    height: 500px;
-    width: 800px;
+.paragraph{
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
+    padding: 5px;
+    line-height: 40px;
+    font-family:'Open Sans Condensed', sans-serif;
 }
+
 .img{
     float:left;
     width:250px;
     height: 300px;
     margin-left: 20px;
     margin-right:20px;
+    padding-bottom: 10px;
+    padding:10px;
 
 }
 .clearfix::after{
     content: "";
     display: block;
     clear: both;
+}
+
+form{
+    margin-left:20px;
+}
+
+.form-text{
+    width: 920px
+
+}
+
+.form-message{
+    width: 920px;
+    height: 100px;
+}
+
+header{
+    padding:20px;
+    margin-left: -20px;
+}
+
+button{
+    background-color: #4aaaa5;
+    color: white;
+    margin-left:20px;
+    width: 10%;
+}
+
+.row{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+/* Clearfix (clear floats) */
+.column::after {
+    content:"";
+    clear:both;
+    display: table;
+}
+
+.footer{
+    text-align: center;
+    background-color:rgb(73, 73, 73);
+    padding:10px;
+    color:white;
+    margin-top:100px;
+    border-top: 5px solid #4aaaa5;
 }
